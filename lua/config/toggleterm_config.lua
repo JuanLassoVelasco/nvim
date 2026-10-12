@@ -2,7 +2,7 @@
 vim.keymap.set(
 	"n",
 	"<leader>th",
-	"<cmd>ToggleTerm size=40 dir=~/Desktop direction=horizontal name=desktop<CR>",
+	"<cmd>ToggleTerm size=10 dir=~/Desktop direction=horizontal name=desktop<CR>",
 	{ desc = "Make terminal at bottom" }
 )
 --set keymap for making vertiacal terminal--
@@ -19,7 +19,7 @@ vim.keymap.set(
 	"<cmd>ToggleTerm size=40 dir=~/Desktop direction=tab name=desktop<CR>",
 	{ desc = "Make new terminal tab" }
 )
-
+--set keymap for making floating terminal--
 vim.keymap.set(
 	"n",
 	"<leader>tf",
